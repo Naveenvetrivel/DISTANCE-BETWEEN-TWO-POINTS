@@ -13,12 +13,15 @@ Print the result(Distance between the points)
 ### Step 4: 
 End the program
 ### PROGRAM:
+~~~
 import math
-d2=[10,6]
-d1=[4,2]
-distance=math.sqrt((d2[0]-d1[0])**2)+((d2[1])-d1[1])**2)
-print("distance",2f)
-  
+x1=4
+y1=2
+x2=10
+y2=6
+d=math.sqrt((x2-x1)**2+(y2-y1)**2)
+print(format(d,".2f"))
+~~~  
 
 
 ### OUTPUT:
